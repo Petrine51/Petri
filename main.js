@@ -4,6 +4,6 @@ function enlargeImg(img) {
 }
 
 function redirect(body) {
-    body.style.transform = "scale(-1)";
-    body.style.transition = "transform 0.5s ease";
+    body.style.transform = "scale(0)";
+    body.style.transition = "transform 0.2s ease";
 }
