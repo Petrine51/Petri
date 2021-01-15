@@ -1,64 +1,9 @@
 <!DOCTYPE html>
-<style>
-body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-.boop {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	padding: 50px 250px;
-	background-color: white;
-	border-radius: 45px;
-	text-align: center !important;
-	font-family: sans-serif;
-	display: inline-block;
-}
-
-#bap {
-	border-radius: 100px;
-}
-
-.buttons {
-	display: flex;
-	flex-direction: row;
-	font-size: 12px;
-}
-
-.yee {
-	height: 60px;
-	width: 60px;
-	margin: 10px;
-}
-
-#hov {
-    background-color: white;
-    display: inline-block;
-}
-
-#hov:hover {
-    opacity: .7;
-}
-</style>
 <head>
 	<title>Petri's Website</title>
 	<link rel="icon" id="bap" href="https://cdn.discordapp.com/avatars/289986744705744898/ab6a962e2663902613ae1746957aea55.png?size=128">
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<script type="text/javascript" src="main.js"></script>
 </head>
 <html>
 <body>
@@ -69,16 +14,16 @@ body {
 		<div>
       <div class="buttons">
         <a style="color:Black" href="https://github.com/Petrine51">
-				  <img class="yee" id="hov" src="https://cdn.discordapp.com/attachments/587398534697975818/799283620564041748/25231.png">
+				  <img class="yee" id="hov" onclick="enlargeImg(this)" src="https://cdn.discordapp.com/attachments/587398534697975818/799283620564041748/25231.png">
         </a>
         <a rel="me" style="color:Cyan" href="https://twitter.com/Petrine51">
-          <img class="yee" id="hov" src="https://cdn.discordapp.com/attachments/587398534697975818/799283694678441994/image.png">
+          <img class="yee" id="hov" onclick="enlargeImg(this)" src="https://cdn.discordapp.com/attachments/587398534697975818/799283694678441994/image.png">
         </a>
         <a style="color:Blue" href="https://discord.gg/JM6APw2">
-				  <img class="yee" id="hov" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png">
+				  <img class="yee" id="hov" onclick="enlargeImg(this)" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png">
 		    </a>
 			</div>
-		</div>
+  	</div>
   </div>
 </body>
 </html>
