@@ -70,7 +70,7 @@ body {
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     width: 200px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.52), 0 1px 2px rgba(0,0,0,0.54);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     cursor: pointer;
     display: inline-block;
@@ -86,3 +86,12 @@ body {
 #boop {background-image: linear-gradient(to right, pink 0%, lightblue 51%, lightpink 100%)}
 
 #boop:hover { background-position: right center; }
+
+iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:none;
+}
