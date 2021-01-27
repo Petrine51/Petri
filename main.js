@@ -7,3 +7,8 @@ function redirect(body) {
     body.style.transform = "scale(0)";
     body.style.transition = "transform 0.2s ease";
 }
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

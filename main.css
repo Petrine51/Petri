@@ -4,6 +4,11 @@ body {
 	animation: gradient 15s ease infinite;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -81,7 +86,6 @@ body {
 
 #boop:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-		margin: 50px;
 }
 
 #boop {background-image: linear-gradient(to right, pink 0%, lightblue 51%, lightpink 100%)}
