@@ -95,3 +95,8 @@ iframe{
     width:100%;
     display:none;
 }
+
+p {
+	text-align: left !important;
+	margin-left: 50px;
+}
