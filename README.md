@@ -1,3 +1,3 @@
 ## Petri's Website
-Woah woah woah cool website yay!
-https://petrine51.github.io/Petri/
+* Woah woah woah cool website yay!
+* https://petrine51.github.io/Petri/
