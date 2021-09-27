@@ -13,6 +13,6 @@ function myFunction() {
   element.classList.toggle("dark-mode");
 }
 
-var div = document.getElementById( 'div_id' );
+var div = document.getElementById( 'boop' );
 div.onmouseover = function() {
   this.style.backgroundColor = 'green';
